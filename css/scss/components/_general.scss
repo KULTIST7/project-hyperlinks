@@ -117,3 +117,12 @@ body {
         object-position: center;
     }
 }
+
+.detail-image {
+    width: 50rem;
+    border-radius: 10px;
+
+    @media #{$sm} {
+        width: 30rem;
+    }
+}
